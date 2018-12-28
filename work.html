@@ -1,258 +1,491 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css" />
+    <title>View My Current Work</title>
+  </head>
 
-  <link rel="stylesheet" href="css/main.css">
-  <title>View My Current Work</title>
-</head>
-
-<body>
-  <header>
-    <div class="menu-btn">
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-    </div>
-
-    <nav class="menu">
-      <div class="menu-branding">
-        <div class="portrait"></div>
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
       </div>
-      <ul class="menu-nav">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">
-            Home
+
+      <nav class="menu">
+        <div class="menu-branding"><div class="portrait"></div></div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link"> About Me </a>
+          </li>
+          <li class="nav-item current">
+            <a href="work.html" class="nav-link"> My Work </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link"> How To Reach Me </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="work">
+      <h1 class="lg-heading">My <span class="text-secondary">Work</span></h1>
+      <h2 class="sm-heading">Check out some of my projects...</h2>
+      <div class="projects">
+        <div class="item">
+          <a href="https://enigmatic-dusk-27802.herokuapp.com/" target="_blank">
+            <img src="img/projects/project5.jpg" alt="project" />
           </a>
-        </li>
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">
-            About Me
+          <a
+            href="https://enigmatic-dusk-27802.herokuapp.com/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> MERN Stack + Bootstrap
           </a>
-        </li>
-        <li class="nav-item current">
-          <a href="work.html" class="nav-link">
-            My Work
+          <a href="https://github.com/twheelertech/devportal" class="btn-dark">
+            <i class="fab fa-github"></i> Github
           </a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link">
-            How To Reach Me
+        </div>
+        <div class="item">
+          <a href="https://catholicinsuranceman.com.com/" target="_blank">
+            <img src="img/projects/project19.jpg" alt="project" />
           </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+          <a
+            href="https://enigmatic-dusk-27802.herokuapp.com/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Wordpress Theme + Materialize CSS +
+            Landing Page Design for Client
+          </a>
+          <a
+            href="https://github.com/twheelertech/materialworld-124"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a
+            href="https://reactclientpanel-tmc.firebaseapp.com/"
+            target="_blank"
+          >
+            <img src="img/projects/project4.jpg" alt="project" />
+          </a>
+          <a
+            href="https://reactclientpanel-tmc.firebaseapp.com/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> React & Redux + Bootstrap
+          </a>
+          <a
+            href="https://github.com/twheelertech/clientpanel"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="https://morning-eyrie-68606.herokuapp.com/" target="_blank">
+            <img src="img/projects/project6.jpg" alt="project" />
+          </a>
+          <a
+            href="https://morning-eyrie-68606.herokuapp.com/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Node.js, Express.Js & MongoDB +
+            Materialize CSS
+          </a>
+          <a
+            href="https://github.com/twheelertech/journalfire"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a
+            href="https://aqueous-brushlands-28094.herokuapp.com/"
+            target="_blank"
+          >
+            <img src="img/projects/project7.jpg" alt="project" />
+          </a>
+          <a
+            href="https://aqueous-brushlands-28094.herokuapp.com/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i class="fas fa-eye"></i> Node.js, Express.Js & MongoDB + Bootstrap
+          </a>
+          <a href="https://github.com/twheelertech/ideastorm" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a
+            href="https://wheelertechconsulting.com/sampleprojects/page1.html"
+            target="_blank"
+          >
+            <img src="img/projects/project1.jpg" alt="project" />
+          </a>
+          <a
+            href="https://wheelertechconsulting.com/sampleprojects/page1.html"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Custom HTML5 & CSS3
+          </a>
+          <a href="https://github.com/twheelertech/techpage" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a
+            href="https://wheelertechconsulting.com/sampleprojects/page2.html"
+            target="_blank"
+          >
+            <img src="img/projects/project2.jpg" alt="project" />
+          </a>
+          <a
+            href="https://wheelertechconsulting.com/sampleprojects/page2.html"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Custom HTML5 & CSS3
+          </a>
+          <a
+            href="https://github.com/twheelertech/fantasygamesite"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a
+            href="http://contactmanager.wheelertechconsulting.com/"
+            target="_blank"
+          >
+            <img src="img/projects/project3.jpg" alt="project" />
+          </a>
+          <a
+            href="http://contactmanager.wheelertechconsulting.com/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> React & Context API + Bootstrap
+          </a>
+          <a
+            href="https://github.com/twheelertech/contactmanager"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a
+            href="https://twheelertech.github.io/contactmanager/#/"
+            target="_blank"
+          >
+            <img src="img/projects/project3.jpg" alt="project" />
+          </a>
+          <a
+            href="https://twheelertech.github.io/contactmanager/#/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> React & Redux + Bootstrap
+          </a>
+          <a
+            href="https://github.com/twheelertech/contactmanagerredux"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a
+            href="http://tracalorie.wheelertechconsulting.com/"
+            target="_blank"
+          >
+            <img src="img/projects/project11.jpg" alt="project" />
+          </a>
+          <a
+            href="http://tracalorie.wheelertechconsulting.com/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Javascript + Materialize CSS
+          </a>
+          <a
+            href="https://github.com/twheelertech/tracalorie"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a
+            href="https://innerworkings.wheelertechconsulting.com/"
+            target="_blank"
+          >
+            <img src="img/projects/project20.jpg" alt="project" />
+          </a>
+          <a
+            href="https://innerworkings.wheelertechconsulting.com/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Materialize CSS Theme
+          </a>
+          <a
+            href="https://github.com/twheelertech/innerworkings"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a
+            href="https://unpossibletech.wheelertechconsulting.com/"
+            target="_blank"
+          >
+            <img src="img/projects/project22.jpg" alt="project" />
+          </a>
+          <a
+            href="https://unpossibletech.wheelertechconsulting.com/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Materialize CSS Theme
+          </a>
+          <a
+            href="https://github.com/twheelertech/unpossibletech"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a
+            href="https://travelorr.wheelertechconsulting.com/"
+            target="_blank"
+          >
+            <img src="img/projects/project21.jpg" alt="project" />
+          </a>
+          <a
+            href="https://travelorr.wheelertechconsulting.com/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Materialize CSS Theme
+          </a>
+          <a
+            href="https://github.com/twheelertech/travelorr"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="http://wheelertechconsulting.com/bswp" target="_blank">
+            <img src="img/projects/project18.jpg" alt="project" />
+          </a>
+          <a
+            href="http://tracalorie.wheelertechconsulting.com/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Wordpress Theme + Bootstrap
+          </a>
+          <a
+            href="https://github.com/twheelertech/tracalorie"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="http://tasklist.wheelertechconsulting.com/" target="_blank">
+            <img src="img/projects/project10.jpg" alt="project" />
+          </a>
+          <a
+            href="http://tasklist.wheelertechconsulting.com/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Javascript + Materialize CSS
+          </a>
+          <a
+            href="https://github.com/twheelertech/tasklist"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="http://weather.wheelertechconsulting.com/" target="_blank">
+            <img src="img/projects/project12.jpg" alt="project" />
+          </a>
+          <a
+            href="http://weather.wheelertechconsulting.com/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Javascript + Bootstrap
+          </a>
+          <a
+            href="https://github.com/twheelertech/weather"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="http://portgrid.wheelertechconsulting.com/" target="_blank">
+            <img src="img/projects/project13.jpg" alt="project" />
+          </a>
+          <a
+            href="http://portgrid.wheelertechconsulting.com/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Bootstrap Theme
+          </a>
+          <a
+            href="https://github.com/twheelertech/portgrid"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="http://blogorr.wheelertechconsulting.com/" target="_blank">
+            <img src="img/projects/project14.jpg" alt="project" />
+          </a>
+          <a
+            href="http://blogorr.wheelertechconsulting.com/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Bootstrap Theme
+          </a>
+          <a
+            href="https://github.com/twheelertech/blogorr"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="http://myushi.wheelertechconsulting.com/" target="_blank">
+            <img src="img/projects/project15.jpg" alt="project" />
+          </a>
+          <a
+            href="http://myushi.wheelertechconsulting.com/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Bootstrap Theme
+          </a>
+          <a
+            href="https://github.com/twheelertech/myushi"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="http://bizness.wheelertechconsulting.com/" target="_blank">
+            <img src="img/projects/project17.jpg" alt="project" />
+          </a>
+          <a
+            href="http://bizness.wheelertechconsulting.com/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Bootstrap Theme
+          </a>
+          <a
+            href="https://github.com/twheelertech/bizness"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="http://clickedin.wheelertechconsulting.com/" target="_blank">
+            <img src="img/projects/project16.jpg" alt="project" />
+          </a>
+          <a
+            href="http://clickedin.wheelertechconsulting.com/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Bootstrap Theme
+          </a>
+          <a
+            href="https://github.com/twheelertech/clickedin"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+        <div class="item">
+          <a href="http://loan.wheelertechconsulting.com/" target="_blank">
+            <img src="img/projects/project8.jpg" alt="project" />
+          </a>
+          <a
+            href="http://loan.wheelertechconsulting.com/"
+            target="_blank"
+            class="btn-light"
+          >
+            <i class="fas fa-eye"></i> Javascript
+          </a>
+          <a
+            href="https://github.com/twheelertech/loancalc"
+            target="_blank"
+            class="btn-dark"
+          >
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+      </div>
+    </main>
 
-  <main id="work">
-    <h1 class="lg-heading">
-      My
-      <span class="text-secondary">Work</span>
-    </h1>
-    <h2 class="sm-heading">
-      Check out some of my projects...
-    </h2>
-    <div class="projects">
-      <div class="item">
-        <a href="https://enigmatic-dusk-27802.herokuapp.com/" target="_blank">
-          <img src="img/projects/project5.jpg" alt="project">
-        </a>
-        <a href="https://enigmatic-dusk-27802.herokuapp.com/" class="btn-light" target="_blank">
-          <i class="fas fa-eye"></i> MERN Stack + Bootstrap
-        </a>
-        <a href="https://github.com/twheelertech/devportal" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="https://reactclientpanel-tmc.firebaseapp.com/" target="_blank">
-          <img src="img/projects/project4.jpg" alt="project">
-        </a>
-        <a href="https://reactclientpanel-tmc.firebaseapp.com/" class="btn-light" target="_blank">
-          <i class="fas fa-eye"></i> React & Redux + Bootstrap
-        </a>
-        <a href="https://github.com/twheelertech/clientpanel" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="https://morning-eyrie-68606.herokuapp.com/" target="_blank">
-          <img src="img/projects/project6.jpg" alt="project">
-        </a>
-        <a href="https://morning-eyrie-68606.herokuapp.com/" class="btn-light" target="_blank">
-          <i class="fas fa-eye"></i> Node.js, Express.Js & MongoDB + Materialize CSS
-        </a>
-        <a href="https://github.com/twheelertech/journalfire" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="https://aqueous-brushlands-28094.herokuapp.com/" target="_blank">
-          <img src="img/projects/project7.jpg" alt="project">
-        </a>
-        <a href="https://aqueous-brushlands-28094.herokuapp.com/" class="btn-light" target="_blank">
-          <i class="fas fa-eye"></i> Node.js, Express.Js & MongoDB + Bootstrap
-        </a>
-        <a href="https://github.com/twheelertech/ideastorm" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="https://wheelertechconsulting.com/sampleprojects/page1.html" target="_blank">
-          <img src="img/projects/project1.jpg" alt="project">
-        </a>
-        <a href="https://wheelertechconsulting.com/sampleprojects/page1.html" target="_blank" class="btn-light">
-          <i class="fas fa-eye"></i> Custom HTML5 & CSS3
-        </a>
-        <a href="https://github.com/twheelertech/techpage" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="https://wheelertechconsulting.com/sampleprojects/page2.html" target="_blank">
-          <img src="img/projects/project2.jpg" alt="project">
-        </a>
-        <a href="https://wheelertechconsulting.com/sampleprojects/page2.html" target="_blank" class="btn-light">
-          <i class="fas fa-eye"></i> Custom HTML5 & CSS3
-        </a>
-        <a href="https://github.com/twheelertech/fantasygamesite" target="_blank" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="http://contactmanager.wheelertechconsulting.com/" target="_blank">
-          <img src="img/projects/project3.jpg" alt="project">
-        </a>
-        <a href="http://contactmanager.wheelertechconsulting.com/" target="_blank" class="btn-light">
-          <i class="fas fa-eye"></i> React & Context API + Bootstrap
-        </a>
-        <a href="https://github.com/twheelertech/contactmanager" target="_blank" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="https://twheelertech.github.io/contactmanager/#/" target="_blank">
-          <img src="img/projects/project3.jpg" alt="project">
-        </a>
-        <a href="https://twheelertech.github.io/contactmanager/#/" target="_blank" class="btn-light">
-          <i class="fas fa-eye"></i> React & Redux + Bootstrap
-        </a>
-        <a href="https://github.com/twheelertech/contactmanagerredux" target="_blank" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="http://tracalorie.wheelertechconsulting.com/" target="_blank">
-          <img src="img/projects/project11.jpg" alt="project">
-        </a>
-        <a href="http://tracalorie.wheelertechconsulting.com/" target="_blank" class="btn-light">
-          <i class="fas fa-eye"></i> Javascript + Materialize CSS
-        </a>
-        <a href="https://github.com/twheelertech/tracalorie" target="_blank" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="http://tasklist.wheelertechconsulting.com/" target="_blank">
-          <img src="img/projects/project10.jpg" alt="project">
-        </a>
-        <a href="http://tasklist.wheelertechconsulting.com/" target="_blank" class="btn-light">
-          <i class="fas fa-eye"></i> Javascript + Materialize CSS
-        </a>
-        <a href="https://github.com/twheelertech/tasklist" target="_blank" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="http://weather.wheelertechconsulting.com/" target="_blank">
-          <img src="img/projects/project12.jpg" alt="project">
-        </a>
-        <a href="http://weather.wheelertechconsulting.com/" target="_blank" class="btn-light">
-          <i class="fas fa-eye"></i> Javascript + Bootstrap
-        </a>
-        <a href="https://github.com/twheelertech/weather" target="_blank" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="http://portgrid.wheelertechconsulting.com/" target="_blank">
-          <img src="img/projects/project13.jpg" alt="project">
-        </a>
-        <a href="http://portgrid.wheelertechconsulting.com/" target="_blank" class="btn-light">
-          <i class="fas fa-eye"></i> Bootstrap Theme
-        </a>
-        <a href="https://github.com/twheelertech/portgrid" target="_blank" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="http://blogorr.wheelertechconsulting.com/" target="_blank">
-          <img src="img/projects/project14.jpg" alt="project">
-        </a>
-        <a href="http://blogorr.wheelertechconsulting.com/" target="_blank" class="btn-light">
-          <i class="fas fa-eye"></i> Bootstrap Theme
-        </a>
-        <a href="https://github.com/twheelertech/blogorr" target="_blank" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="http://myushi.wheelertechconsulting.com/" target="_blank">
-          <img src="img/projects/project15.jpg" alt="project">
-        </a>
-        <a href="http://myushi.wheelertechconsulting.com/" target="_blank" class="btn-light">
-          <i class="fas fa-eye"></i> Bootstrap Theme
-        </a>
-        <a href="https://github.com/twheelertech/myushi" target="_blank" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="http://bizness.wheelertechconsulting.com/" target="_blank">
-          <img src="img/projects/project17.jpg" alt="project">
-        </a>
-        <a href="http://bizness.wheelertechconsulting.com/" target="_blank" class="btn-light">
-          <i class="fas fa-eye"></i> Bootstrap Theme
-        </a>
-        <a href="https://github.com/twheelertech/bizness" target="_blank" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="http://clickedin.wheelertechconsulting.com/" target="_blank">
-          <img src="img/projects/project16.jpg" alt="project">
-        </a>
-        <a href="http://clickedin.wheelertechconsulting.com/" target="_blank" class="btn-light">
-          <i class="fas fa-eye"></i> Bootstrap Theme
-        </a>
-        <a href="https://github.com/twheelertech/clickedin" target="_blank" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="http://loan.wheelertechconsulting.com/" target="_blank">
-          <img src="img/projects/project8.jpg" alt="project">
-        </a>
-        <a href="http://loan.wheelertechconsulting.com/" target="_blank" class="btn-light">
-          <i class="fas fa-eye"></i> Javascript
-        </a>
-        <a href="https://github.com/twheelertech/loancalc" target="_blank" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-    </div>
-  </main>
+    <footer id="main-footer">Copyright &copy; 2018</footer>
 
-  <footer id="main-footer">
-    Copyright &copy; 2018
-  </footer>
-
-  <script src="js/main.js"></script>
-</body>
-
+    <script src="js/main.js"></script>
+  </body>
 </html>
